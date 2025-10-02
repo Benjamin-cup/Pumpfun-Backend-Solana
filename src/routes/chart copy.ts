@@ -15,6 +15,7 @@ const tradeChart = {
     "v": [3285000, 3012000, 3796000]
 }
 const cache = new NodeCache({ stdTTL: 60 });
+
 interface SymbolInfo {
     name: string;
     ticker: string;
@@ -29,6 +30,7 @@ interface SymbolInfo {
     supported_resolutions: string[];
     volume_precision: number;
 }
+
 interface mockInfo {
     s: string,
     t: number[],
@@ -39,6 +41,7 @@ interface mockInfo {
     v: number[],
 
 }
+
 // Mock data
 const mockSymbols: { [key: string]: SymbolInfo } = {
     'ma': {
@@ -68,6 +71,7 @@ const mockHistory: { [key: string]: mockInfo } = {
         v: [3285000, 3012000, 3796000],
     },
 };
+
 const config: mockInfo = {
     s: 'ok',
     t: [1587945600, 1588032000, 1588118400],

@@ -20,11 +20,11 @@ Acts as a starting point for anyone looking to create or extend pump.fun-like pl
 ### 📞 Contact Information
 If you have any questions or need further assistance, don't hesitate to get in touch:
 
-Email: tom.kinddev@gmail.com
+Gmail: benjamin.bigdev@gmail.com
 
-Telegram: @erikerik116
+Telegram: [@SOLBenjaminCup](https://t.me/SOLBenjaminCup)
 
-Discord: @erikerik116
+Discord: [@.benjamincup](https://discord.com/channels/@me/1305610537790476382)
 
 ### 🤝 Contribution
 While this project is primarily for demonstration and learning purposes, contributions to enhance the backend structure are always welcome.

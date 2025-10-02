@@ -25,6 +25,7 @@ export async function fetchPriceChartData(pairIndex: number, start: number, end:
 
   if (!priceHistory.length) return [];
 
+
   let candlePeriod = 60; // 1 min  default
   switch (range) {
     case 1:
@@ -43,6 +44,7 @@ export async function fetchPriceChartData(pairIndex: number, start: number, end:
       candlePeriod = 7_200; // 2 hrs
       break;
   }
+
 
   // convert price feed to candle price data
   let cdStart = Math.floor(priceHistory[0].ts / candlePeriod) * candlePeriod;
@@ -75,5 +77,6 @@ export async function fetchPriceChartData(pairIndex: number, start: number, end:
       });
   }
 
+  
   return cdFeeds;
 }

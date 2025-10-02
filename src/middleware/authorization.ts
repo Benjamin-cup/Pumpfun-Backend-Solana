@@ -27,6 +27,7 @@ export const auth = (req: AuthRequest, res: Response, next: NextFunction): void 
 
 }
 
+
 export interface AuthRequest extends Request {
     user?: any;
   }
